@@ -1,0 +1,19 @@
+.button {
+  display: table-cell;
+  vertical-align: middle;
+  padding: .5rem;
+  cursor: pointer;
+  border: none;
+  font-size: 3rem;
+  border-radius: 1rem;
+}
+
+.primary_view {
+  background-color: var(--action-primary-color);
+  color: var(--text-primary-color);
+}
+
+.secondary_view {
+  background-color: var(--action-secondary-color);
+  color: var(--text-primary-color);
+}

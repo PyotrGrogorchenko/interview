@@ -1,0 +1,46 @@
+.container {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  grid-template-areas: 
+    'dice'
+    'actions';
+  grid-template-rows: 80% 1fr;
+}
+
+.diceArea {
+  grid-area: dice;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dice {
+  position: relative;
+}
+
+.dice div:nth-child(1) {
+  position: absolute;
+  right: -4rem;
+  top: -8rem;
+}
+
+.dice div:nth-child(2) {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.dice div:nth-child(3) {
+  position: absolute;
+  right: -8rem;
+  top: 0;
+}
+
+.actionsArea {
+  grid-area: actions;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  display: flex;
+}

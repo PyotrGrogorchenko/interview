@@ -1,0 +1,24 @@
+.container {
+  display: grid;
+  grid-gap: 2rem;
+  padding: 2rem;
+  border-radius: 10px;
+
+  min-width: 10rem;
+  position: fixed;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  z-index: 1100;
+}
+
+.text {
+  display: table;
+  margin: 0 auto;
+}
+
+.actions {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}

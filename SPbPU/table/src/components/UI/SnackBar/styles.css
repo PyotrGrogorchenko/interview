@@ -1,0 +1,38 @@
+.container {
+  display: grid;
+  grid-gap: .2rem;
+  padding: 1rem;
+  border-radius: 10px;
+
+  position: fixed;
+  bottom: 0;
+
+  z-index: 1100;
+}
+
+.snack {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .5rem;
+  min-width: 20rem;
+  border-radius: .5rem;
+  background-color: var(--shadow-color);
+  opacity: .8;
+}
+
+.info {
+  background-color: var(--shadow-color);
+}
+
+.success {
+  background-color: var(--success-color);
+}
+
+.warn {
+  background-color: var(--warn-color);
+}
+
+.error {
+  background-color: var(--error-color);
+}

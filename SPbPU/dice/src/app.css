@@ -1,0 +1,21 @@
+body {
+  /* vars */
+  --primary-color: #1f2041;
+  --secondary-color: #4b3f72;
+  
+  --action-primary-color: #119da4;
+  --action-secondary-color: #186481;
+
+  --text-primary-color: #e0ecef;
+  --text-secondary-color: #ffc857;
+
+  --success-color: #2a9d8f;
+  --warn-color: #e9c46a;
+  --error-color: #e76f51;
+
+  font-family: 'helvetica neue', helvetica, arial, sans-serif;
+  font-size: 3rem;
+
+  margin: 0;
+  padding: 0;
+}

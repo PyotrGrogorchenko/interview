@@ -1,0 +1,24 @@
+.thead {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  position: sticky;
+  top: 0;
+
+  -webkit-touch-callout: none; 
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
+.th, .th_options {
+  min-width: 5rem;
+  padding: .2rem;
+  text-align: start;
+}
+
+.th:hover {
+  cursor: pointer;
+}

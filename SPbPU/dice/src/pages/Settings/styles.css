@@ -1,0 +1,40 @@
+.container {
+  display: grid;
+  width: 100vw;
+  height: 100vh;
+  grid-template-areas: 
+    'dice'
+    'actions';
+  grid-template-rows: 80% 1fr;
+}
+
+.diceArea {
+  grid-area: dice;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dice {
+  position: relative;
+}
+
+.dice input:nth-child(5) {
+  position: absolute;
+  left: 25%;
+  top: -100%;
+}
+
+.dice input:nth-child(6) {
+  position: absolute;
+  left: 25%;
+  top: 100%;
+}
+
+.actionsArea {
+  grid-area: actions;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  display: flex;
+}

@@ -1,0 +1,24 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, .5);
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.zIndex_800 {
+  z-index: 800;
+}
+
+.zIndex_900 {
+  z-index: 900;
+}
+
+.zIndex_1000 {
+  z-index: 1000;
+}

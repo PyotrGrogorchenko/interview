@@ -1,0 +1,14 @@
+.input {
+  width: 8rem;
+  height: 8rem;
+  font-size: 3rem;
+  outline: none;
+  border: .1rem solid var(--secondary-color);
+  text-align: center;
+  background-color: var(--primary-color);
+  color: var(--text-secondary-color);
+}
+
+.active {
+  background-color: var(--secondary-color);
+}
