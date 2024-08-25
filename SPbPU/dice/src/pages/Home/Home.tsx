@@ -1,9 +1,9 @@
-import { FC, useState } from 'react'
+import { FC, useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { Button } from '@src/components/UI/Button'
 import { useGame } from '@src/components/Game'
 import { Edge } from '@src/components/Edge'
-import styles from './styles.css'
+import * as styles from './styles.css'
 
 export const Home: FC = () => {
   const { rollDice } = useGame()
@@ -13,11 +13,19 @@ export const Home: FC = () => {
   const [left, setLeft] = useState(-1)
   const [right, setRight] = useState(-1)
 
-  const onRoll = () => {
+  const roll = () => {
     const [result, l, r] = rollDice()
     setRes(result)
     setLeft(l)
     setRight(r)
+  }
+
+  useEffect(() => {
+    roll()
+  }, [])
+
+  const onRoll = () => {
+    roll()
   }
 
   return (

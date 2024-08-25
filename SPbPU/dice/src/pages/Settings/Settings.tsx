@@ -4,7 +4,7 @@ import { useGame } from '@src/components/Game'
 import { Button } from '@src/components/UI/Button'
 import { ButtonEdge } from '@src/components/UI/ButtonEdge'
 import { getDataset } from '@src/shared/utils/getDataset'
-import styles from './styles.css'
+import * as styles from './styles.css'
 
 export const Settings: FC = () => {
   const { selectDice, swap, saveDice } = useGame()
