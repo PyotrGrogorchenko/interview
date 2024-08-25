@@ -1,6 +1,6 @@
 import { FC, useCallback } from 'react'
 import { Button } from '@src/components/UI/Button'
-import styles from './styles.css'
+import * as styles from './styles.css'
 import { useTable } from '../TableProvider'
 
 export const Footer: FC = () => {

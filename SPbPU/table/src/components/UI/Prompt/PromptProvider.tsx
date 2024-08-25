@@ -1,7 +1,7 @@
 import { createContext, FC, ReactNode, useContext, useRef, useState } from 'react'
 import { Button } from '@src/components/UI/Button'
 import { Modal } from '@src/components/UI/Modal'
-import styles from './styles.css'
+import * as styles from './styles.css'
 
 type Props = {
   children: ReactNode

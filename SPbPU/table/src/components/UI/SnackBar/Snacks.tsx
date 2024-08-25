@@ -3,7 +3,7 @@ import { useInterval } from '@src/hooks/useInterval'
 import { Button } from '@src/components/UI/Button'
 import { getDataset } from '@src/shared/utils/getDataset'
 import { SnackData } from './types'
-import styles from './styles.css'
+import * as styles from './styles.css'
 
 type Props = {
   snacks: SnackData[]

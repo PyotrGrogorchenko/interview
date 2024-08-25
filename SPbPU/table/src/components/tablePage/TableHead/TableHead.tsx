@@ -1,6 +1,6 @@
 import { FC } from 'react'
 import { useTable } from '../TableProvider'
-import styles from './styles.css'
+import * as styles from './styles.css'
 
 export const TableHead: FC = () => {
   const { selectState } = useTable()

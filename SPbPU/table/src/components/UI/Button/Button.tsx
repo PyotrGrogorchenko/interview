@@ -1,7 +1,7 @@
 import { ButtonHTMLAttributes, FC } from 'react'
 import { Glyph } from '@src/types'
 import { Icon } from '@src/components/UI/Icon'
-import styles from './styles.css'
+import * as styles from './styles.css'
 
 type Props = {
   glyph?: Glyph

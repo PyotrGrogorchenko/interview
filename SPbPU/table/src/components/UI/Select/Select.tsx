@@ -1,6 +1,6 @@
 import { forwardRef, SelectHTMLAttributes } from 'react'
 import { Label } from '@src/components/UI/Label'
-import styles from './styles.css'
+import * as styles from './styles.css'
 
 type Props = {
   options: {

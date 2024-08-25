@@ -3,7 +3,7 @@ import { Footer } from '@src/components/tablePage/Footer'
 import { Header } from '@src/components/tablePage/Header'
 import { TableController } from '@src/components/tablePage/TableController'
 import { FC } from 'react'
-import styles from './styles.css'
+import * as styles from './styles.css'
 
 export const Table: FC = () => {
   return (

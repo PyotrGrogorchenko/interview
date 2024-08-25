@@ -9,7 +9,7 @@ import { useHTMLElement } from '@src/hooks/useHTMLElement'
 import { chekFormat } from '@src/shared/format/chekFormat'
 import { getDefaultFormat } from '@src/shared/format/getDefaultFormat'
 import { useTable } from '../TableProvider'
-import styles from './styles.css'
+import * as styles from './styles.css'
 
 type Props = {
   hide: () => void

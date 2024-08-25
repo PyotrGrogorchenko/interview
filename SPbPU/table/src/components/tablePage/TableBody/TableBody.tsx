@@ -2,7 +2,7 @@ import { Button } from '@src/components/UI/Button'
 import { getDefaultValue } from '@src/shared/format/getDefaultValue'
 import { FC } from 'react'
 import { useTable } from '../TableProvider'
-import styles from './styles.css'
+import * as styles from './styles.css'
 
 export const TableBody: FC = () => {
   const { selectState } = useTable()

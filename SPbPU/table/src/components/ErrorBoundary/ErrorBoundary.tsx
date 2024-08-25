@@ -1,5 +1,5 @@
 import { Component, ReactNode } from 'react'
-import styles from './styles.css'
+import * as styles from './styles.css'
 
 type State = {
   hasError: boolean,

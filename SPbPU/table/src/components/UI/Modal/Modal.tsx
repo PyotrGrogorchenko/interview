@@ -1,5 +1,5 @@
 import { FC, HTMLAttributes, ReactNode } from 'react'
-import styles from './styles.css'
+import * as styles from './styles.css'
 
 type Props = {
   children: ReactNode,

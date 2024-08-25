@@ -6,7 +6,7 @@ import { TableBody } from '../TableBody'
 import { TableFoot } from '../TableFoot'
 import { TableHead } from '../TableHead'
 import { useTable } from '../TableProvider'
-import styles from './styles.css'
+import * as styles from './styles.css'
 
 const cache: Record<string, string> = {}
 
