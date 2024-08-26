@@ -1,4 +1,4 @@
-# datagile-counter
+# counter
 
 ## Установка
 
@@ -8,4 +8,4 @@
 npm ci
 npm run start
 ```
-Приложение запустится на [http://localhost:4000](http://localhost:4000)
+Приложение запустится на [http://localhost:5000](http://localhost:5000)

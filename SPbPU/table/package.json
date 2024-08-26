@@ -4,7 +4,7 @@
   "private": false,
   "author": "PyotrPetrovich",
   "scripts": {
-    "start": "webpack serve --env port=3000 mode=development",
+    "start": "webpack serve --env port=4000 mode=development",
     "build:dev": "webpack --env mode=development",
     "build:prod": "webpack --env mode=production"
   },

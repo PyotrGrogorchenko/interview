@@ -6,6 +6,6 @@
 
 ```bash
 npm ci
-npm run dev
+npm run start
 ```
 Приложение запустится на [http://localhost:4000](http://localhost:4000)
