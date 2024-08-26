@@ -5,5 +5,5 @@
 - [counter](https://github.com/PyotrGrogorchenko/test-tasks/tree/main/datagile-counter)
 - users
   - [frontend](https://github.com/PyotrGrogorchenko/test-tasks/tree/main/users/users_frontend)
-  - [counter](https://github.com/PyotrGrogorchenko/test-tasks/tree/main/datagile-counter)
+  - [backend](https://github.com/PyotrGrogorchenko/test-tasks/tree/main/users/users_backend)
 
