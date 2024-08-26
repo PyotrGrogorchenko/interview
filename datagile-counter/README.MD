@@ -2,7 +2,7 @@
 
 <a>https://counter-datagile.netlify.app/</a>
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/babad549-03c2-460c-895f-189c143a60c0/deploy-status)](https://app.netlify.com/sites/counter-datagile/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/babad549-03c2-460c-895f-189c143a60c0/deploy-status)](https://counter-datagile.netlify.app/)
 
 ## Установка
 
