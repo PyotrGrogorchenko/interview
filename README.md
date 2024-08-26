@@ -4,6 +4,6 @@
 - [table](https://github.com/PyotrGrogorchenko/test-tasks/tree/main/SPbPU/table)
 - [counter](https://github.com/PyotrGrogorchenko/test-tasks/tree/main/datagile-counter)
 - users
-  - [counter](https://github.com/PyotrGrogorchenko/test-tasks/tree/main/datagile-counter)
+  - [frontend]([https://github.com/PyotrGrogorchenko/test-tasks/tree/main/datagile-counter](https://github.com/PyotrGrogorchenko/test-tasks/tree/main/users/users_frontend))
   - [counter](https://github.com/PyotrGrogorchenko/test-tasks/tree/main/datagile-counter)
 
