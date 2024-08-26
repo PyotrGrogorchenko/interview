@@ -1,7 +1,5 @@
-import { useAction } from '@src/hooks/useAction'
-import { useAutoincrement } from '@src/hooks/useAutoincrement'
 import { useTypedSelector } from '@src/hooks/useTypedSelector'
-import { FC, useCallback, useEffect } from 'react'
+import { FC } from 'react'
 import { Button } from './UI/Button'
 import styled from 'styled-components'
 
@@ -14,45 +12,23 @@ export const StyledTd = styled.td(() => `
   min-width: 30px;
 `)
 
-
 export const CounterItem: FC<{ id: string }> = ({ id }) => {
-  const { counters } = useTypedSelector((state) => state.counter)
-  const autoincrement = useAutoincrement(id)
-  const { setCounter, removeCounter, setAutoincrement } = useAction()
-
-  useEffect(() => {
-    const keys = Object.keys(counters)
-    const data = []
-    for (let i = 3; i < keys.length; i = i + 4) {
-      data.push(keys[i])
-    }
-    setAutoincrement(data)
-  }, [counters])
-
-  const onClickPlus = useCallback(() => {
-    setCounter([{ id, value: 1 }])
-  }, [id, setCounter])
-
-  const onClickMinus = useCallback(() => {
-    setCounter([{ id, value: -1 }])
-  }, [id, setCounter])
-
-  const onClickRemove = useCallback(() => {
-    removeCounter(id)
-  }, [id, removeCounter])
+  const counter = useTypedSelector((state) => state.counter.counters[id])
+  const autoIncrement = useTypedSelector((state) => state.counter.autoIncrement.includes(id))
+  
   return (
     <StyledTr>
       <StyledTd>
-        <Button color='red' onClick={onClickRemove}>Удалить счетик</Button>
+        <Button color='red' data-action={`remove:${id}`}>Удалить счетик</Button>
       </StyledTd>
       <StyledTd>
-        {!autoincrement && <Button color='green' onClick={onClickPlus}>+</Button>}
+        {!autoIncrement && <Button color='green' data-action={`increment:${id}`}>+</Button>}
       </StyledTd>
       <StyledTd>
-        {counters[id]}
+        {counter}
       </StyledTd>
       <StyledTd>
-        {!autoincrement &&<Button color='red' onClick={onClickMinus}>-</Button>}
+        {!autoIncrement &&<Button color='red' data-action={`decrement:${id}`}>-</Button>}
       </StyledTd>
     </StyledTr>
   )
