@@ -1,6 +1,6 @@
 # Test tasks
 
 - [dice](https://github.com/PyotrGrogorchenko/test-tasks/tree/main/SPbPU/dice)
-- СПбПУ-table
-- datagile-counter
+- [table](https://github.com/PyotrGrogorchenko/test-tasks/tree/main/SPbPU/table)
+- [table](https://github.com/PyotrGrogorchenko/test-tasks/tree/main/SPbPU/table)
 - users
