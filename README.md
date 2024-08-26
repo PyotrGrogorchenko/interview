@@ -1,6 +1,6 @@
 # Test tasks
 
-- [http://localhost:27017](dice)
+- [dice](https://github.com/PyotrGrogorchenko/test-tasks/tree/main/SPbPU/dice)
 - СПбПУ-table
 - datagile-counter
 - users
