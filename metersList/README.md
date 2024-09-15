@@ -1,4 +1,4 @@
-# meters kist
+# meters list
 
 <a>https://dice-task-spbpu.netlify.app/</a>
 
