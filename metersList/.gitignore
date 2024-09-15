@@ -1,0 +1,6 @@
+node_modules
+_dist
+.idea
+.vscode
+# Local Netlify folder
+.netlify
